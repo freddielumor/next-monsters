@@ -1,16 +1,47 @@
 .monster {
-
+  max-width: 768px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .monster__name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #343a40;
+}
 
+.monster__image {
+  margin: 20px 0;
+}
+
+.monster__image img {
+  width: 100%;
+  height: auto;
 }
 
 .monster__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .monster__stat {
+  font-weight: bold;
+  color: #495057;
 }
 
 .monster__stat-value {
+  font-weight: normal;
+  color: #6c757d;
+}
+
+@media (min-width: 768px) {
+  .monster__image {
+    width: 500px;
+    margin: 20px auto;
+  }
 }

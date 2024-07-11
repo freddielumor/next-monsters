@@ -20,3 +20,7 @@ export interface MonsterList {
     count: number;
     results: MonsterSummary[];
 }
+
+export interface MonsterDetailIndex {
+    index: string;
+}

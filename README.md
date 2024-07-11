@@ -1,3 +1,13 @@
+# DND Monsters
+
+```sh
+$ yarn install
+```
+
+```sh
+$ yarn dev
+```
+
 # Task 1:
 
 On Submission of the form, call the monsters api `https://www.dnd5eapi.co/api/monsters`
